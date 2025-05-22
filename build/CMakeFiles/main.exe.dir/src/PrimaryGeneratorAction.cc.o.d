@@ -3,6 +3,7 @@ CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/include/stdc-predef.h \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/PrimaryGeneratorAction.hh \
  /opt/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /opt/geant4/include/Geant4/G4ParticleGun.hh \
  /opt/geant4/include/Geant4/globals.hh \
  /opt/geant4/include/Geant4/G4ios.hh \
  /opt/geant4/include/Geant4/G4Types.hh \
@@ -232,8 +233,6 @@ CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /opt/geant4/include/Geant4/G4ParticleGun.hh \
- /opt/geant4/include/Geant4/globals.hh \
  /opt/geant4/include/Geant4/G4VPrimaryGenerator.hh \
  /opt/geant4/include/Geant4/G4ThreeVector.hh \
  /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
@@ -265,15 +264,4 @@ CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: \
  /opt/geant4/include/Geant4/G4ParticleTable.hh \
  /opt/geant4/include/Geant4/G4ParticleTableIterator.hh \
  /opt/geant4/include/Geant4/G4ParticleTable.icc \
- /opt/geant4/include/Geant4/G4SystemOfUnits.hh \
- /opt/geant4/include/Geant4/G4Event.hh /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /opt/geant4/include/Geant4/evtdefs.hh \
- /opt/geant4/include/Geant4/G4HCofThisEvent.hh \
- /opt/geant4/include/Geant4/G4VHitsCollection.hh \
- /opt/geant4/include/Geant4/G4DCofThisEvent.hh \
- /opt/geant4/include/Geant4/G4VDigiCollection.hh \
- /opt/geant4/include/Geant4/G4TrajectoryContainer.hh \
- /opt/geant4/include/Geant4/G4VTrajectory.hh \
- /opt/geant4/include/Geant4/G4VUserEventInformation.hh
+ /opt/geant4/include/Geant4/G4SystemOfUnits.hh

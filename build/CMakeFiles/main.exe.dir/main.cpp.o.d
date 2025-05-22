@@ -1,10 +1,10 @@
 CMakeFiles/main.exe.dir/main.cpp.o: \
  /home/tahea/edu/Geant4_proj2/simplegeo/main.cpp \
  /usr/include/stdc-predef.h \
- /home/tahea/edu/Geant4_proj2/simplegeo/include/DetectorConstruction.hh \
- /opt/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
- /opt/geant4/include/Geant4/globals.hh \
- /opt/geant4/include/Geant4/G4ios.hh \
+ /opt/geant4/include/Geant4/G4RunManagerFactory.hh \
+ /opt/geant4/include/Geant4/G4MTRunManager.hh \
+ /opt/geant4/include/Geant4/G4MTBarrier.hh \
+ /opt/geant4/include/Geant4/G4Threading.hh \
  /opt/geant4/include/Geant4/G4Types.hh \
  /opt/geant4/include/Geant4/G4GlobalConfig.hh /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -177,8 +177,10 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /opt/geant4/include/Geant4/tls.hh \
- /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /opt/geant4/include/Geant4/globals.hh \
+ /opt/geant4/include/Geant4/G4ios.hh /usr/include/c++/11/iostream \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -232,25 +234,19 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /opt/geant4/include/Geant4/G4GenericMessenger.hh \
- /opt/geant4/include/Geant4/G4AnyMethod.hh \
- /opt/geant4/include/Geant4/G4AnyType.hh \
- /opt/geant4/include/Geant4/G4UIcommand.hh \
- /opt/geant4/include/Geant4/G4ApplicationState.hh \
- /opt/geant4/include/Geant4/G4ThreeVector.hh \
- /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /opt/geant4/include/Geant4/CLHEP/Utility/defs.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /opt/geant4/include/Geant4/G4UIparameter.hh \
- /opt/geant4/include/Geant4/G4UImessenger.hh \
- /opt/geant4/include/Geant4/G4UIdirectory.hh \
- /home/tahea/edu/Geant4_proj2/simplegeo/include/PrimaryGeneratorAction.hh \
- /opt/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /opt/geant4/include/Geant4/globals.hh \
- /home/tahea/edu/Geant4_proj2/simplegeo/include/RunAction.hh \
- /opt/geant4/include/Geant4/G4UserRunAction.hh \
- /home/tahea/edu/Geant4_proj2/simplegeo/include/SteppingAction.hh \
- /opt/geant4/include/Geant4/G4UserSteppingAction.hh \
+ /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/future \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /opt/geant4/include/Geant4/G4RNGHelper.hh /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
  /opt/geant4/include/Geant4/G4RunManager.hh \
  /opt/geant4/include/Geant4/G4Event.hh /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
@@ -260,6 +256,10 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /opt/geant4/include/Geant4/G4AllocatorPool.hh \
  /opt/geant4/include/Geant4/G4PrimaryVertex.hh \
  /opt/geant4/include/Geant4/G4PrimaryParticle.hh \
+ /opt/geant4/include/Geant4/G4ThreeVector.hh \
+ /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /opt/geant4/include/Geant4/CLHEP/Utility/defs.h \
+ /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /opt/geant4/include/Geant4/pwdefs.hh \
  /opt/geant4/include/Geant4/G4HCofThisEvent.hh \
  /opt/geant4/include/Geant4/G4VHitsCollection.hh \
@@ -284,24 +284,13 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /opt/geant4/include/Geant4/G4LogicalVolume.hh /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /opt/geant4/include/Geant4/G4Region.hh \
  /opt/geant4/include/Geant4/G4GeomSplitter.hh \
  /opt/geant4/include/Geant4/geomwdefs.hh \
  /opt/geant4/include/Geant4/G4AutoLock.hh \
- /opt/geant4/include/Geant4/G4Threading.hh \
- /usr/include/c++/11/condition_variable /usr/include/c++/11/future \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/this_thread_sleep.h \
  /opt/geant4/include/Geant4/G4Region.icc \
  /opt/geant4/include/Geant4/G4VPhysicalVolume.hh \
  /opt/geant4/include/Geant4/geomdefs.hh \
@@ -488,10 +477,52 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /opt/geant4/include/Geant4/G4VSteppingVerbose.hh \
  /opt/geant4/include/Geant4/trkgdefs.hh \
  /opt/geant4/include/Geant4/G4TrackingMessenger.hh \
+ /opt/geant4/include/Geant4/G4UImessenger.hh \
+ /opt/geant4/include/Geant4/G4UIdirectory.hh \
+ /opt/geant4/include/Geant4/G4UIcommand.hh \
+ /opt/geant4/include/Geant4/G4ApplicationState.hh \
+ /opt/geant4/include/Geant4/G4UIparameter.hh \
  /opt/geant4/include/Geant4/G4UserTrackingAction.hh \
  /opt/geant4/include/Geant4/G4RunManagerKernel.hh \
  /opt/geant4/include/Geant4/rundefs.hh /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
+ /opt/geant4/include/Geant4/G4TaskRunManager.hh \
+ /opt/geant4/include/Geant4/G4TBBTaskGroup.hh \
+ /opt/geant4/include/Geant4/PTL/TaskGroup.hh \
+ /opt/geant4/include/Geant4/PTL/AutoLock.hh \
+ /opt/geant4/include/Geant4/PTL/ConsumeParameters.hh \
+ /opt/geant4/include/Geant4/PTL/Types.hh \
+ /opt/geant4/include/Geant4/PTL/Config.hh \
+ /opt/geant4/include/Geant4/PTL/JoinFunction.hh \
+ /opt/geant4/include/Geant4/PTL/Macros.hh \
+ /opt/geant4/include/Geant4/PTL/ScopeDestructor.hh \
+ /opt/geant4/include/Geant4/PTL/Task.hh \
+ /opt/geant4/include/Geant4/PTL/VTask.hh \
+ /opt/geant4/include/Geant4/PTL/detail/CxxBackports.hh \
+ /opt/geant4/include/Geant4/PTL/ThreadData.hh \
+ /opt/geant4/include/Geant4/PTL/ThreadPool.hh \
+ /opt/geant4/include/Geant4/PTL/Threading.hh \
+ /opt/geant4/include/Geant4/PTL/VUserTaskQueue.hh \
+ /opt/geant4/include/Geant4/G4TaskGroup.hh \
+ /opt/geant4/include/Geant4/G4TaskManager.hh \
+ /opt/geant4/include/Geant4/PTL/TaskManager.hh \
+ /opt/geant4/include/Geant4/PTL/TaskRunManager.hh \
+ /opt/geant4/include/Geant4/G4ThreadPool.hh \
+ /opt/geant4/include/Geant4/G4VUserTaskQueue.hh /usr/include/c++/11/regex \
+ /usr/include/c++/11/bitset /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
  /opt/geant4/include/Geant4/G4UImanager.hh \
  /opt/geant4/include/Geant4/G4UIcommandStatus.hh \
  /opt/geant4/include/Geant4/G4VStateDependent.hh \
@@ -610,7 +641,9 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /opt/geant4/include/Geant4/G4UIbatch.hh \
  /opt/geant4/include/Geant4/G4UIExecutive.hh \
  /opt/geant4/include/Geant4/G4VUIshell.hh \
- /opt/geant4/include/Geant4/G4EmStandardPhysics.hh \
+ /opt/geant4/include/Geant4/G4SteppingVerbose.hh \
+ /opt/geant4/include/Geant4/FTFP_BERT.hh \
+ /opt/geant4/include/Geant4/G4VModularPhysicsList.hh \
  /opt/geant4/include/Geant4/G4VPhysicsConstructor.hh \
  /opt/geant4/include/Geant4/G4PhysicsListHelper.hh \
  /opt/geant4/include/Geant4/G4PhysicsListOrderingParameter.hh \
@@ -618,10 +651,12 @@ CMakeFiles/main.exe.dir/main.cpp.o: \
  /opt/geant4/include/Geant4/G4Cache.hh \
  /opt/geant4/include/Geant4/G4CacheDetails.hh \
  /opt/geant4/include/Geant4/G4VUPLSplitter.hh \
- /opt/geant4/include/Geant4/FTFP_BERT.hh \
- /opt/geant4/include/Geant4/G4VModularPhysicsList.hh \
  /opt/geant4/include/Geant4/G4VUserPhysicsList.hh \
  /opt/geant4/include/Geant4/G4ProductionCutsTable.hh \
  /opt/geant4/include/Geant4/G4MaterialCutsCouple.hh \
  /opt/geant4/include/Geant4/G4ProductionCuts.hh \
- /opt/geant4/include/Geant4/G4MCCIndexConversionTable.hh
+ /opt/geant4/include/Geant4/G4MCCIndexConversionTable.hh \
+ /home/tahea/edu/Geant4_proj2/simplegeo/include/DetectorConstruction.hh \
+ /opt/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/tahea/edu/Geant4_proj2/simplegeo/include/ActionInitialization.hh \
+ /opt/geant4/include/Geant4/G4VUserActionInitialization.hh

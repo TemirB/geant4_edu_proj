@@ -1,14 +1,17 @@
-#pragma once
-#include <G4UserSteppingAction.hh>
-#include "EventAction.hh"
+#ifndef SteppingAction_h
+#define SteppingAction_h 1
+
+#include "G4UserSteppingAction.hh"
+
+class RunAction;
 
 class SteppingAction : public G4UserSteppingAction {
 public:
-    SteppingAction(EventAction* evt, int nLayers, double layerXY);
-    virtual ~SteppingAction() = default;
-    virtual void UserSteppingAction(const G4Step*) override;
+    SteppingAction(RunAction* runAction);
+    virtual ~SteppingAction();
+    virtual void UserSteppingAction(const G4Step*);
 private:
-    EventAction* fEventAction;
-    int fNLayers;
-    double fLayerXY;
+    RunAction* fRunAction;
 };
+
+#endif

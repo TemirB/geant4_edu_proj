@@ -1,13 +1,13 @@
-#pragma once
-#include <G4VUserActionInitialization.hh>
+#ifndef ActionInitialization_h
+#define ActionInitialization_h 1
+
+#include "G4VUserActionInitialization.hh"
 
 class ActionInitialization : public G4VUserActionInitialization {
 public:
-    ActionInitialization(int nLayers, double layerXY, double binSize);
-    virtual ~ActionInitialization() = default;
+    ActionInitialization();
+    virtual ~ActionInitialization();
     virtual void Build() const override;
-private:
-    int fNLayers;
-    double fLayerXY;
-    double fBinSize;
 };
+
+#endif

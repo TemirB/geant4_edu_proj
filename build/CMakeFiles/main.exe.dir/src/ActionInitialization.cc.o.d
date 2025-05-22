@@ -5,8 +5,8 @@ CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o: \
  /opt/geant4/include/Geant4/G4VUserActionInitialization.hh \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/PrimaryGeneratorAction.hh \
  /opt/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /opt/geant4/include/Geant4/globals.hh \
- /opt/geant4/include/Geant4/G4ios.hh \
+ /home/tahea/edu/Geant4_proj2/simplegeo/include/RunAction.hh \
+ /opt/geant4/include/Geant4/G4UserRunAction.hh \
  /opt/geant4/include/Geant4/G4Types.hh \
  /opt/geant4/include/Geant4/G4GlobalConfig.hh /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -179,62 +179,9 @@ CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /opt/geant4/include/Geant4/tls.hh \
- /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h \
- /opt/geant4/include/Geant4/G4String.hh /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /opt/geant4/include/Geant4/G4String.icc \
- /opt/geant4/include/Geant4/templates.hh /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /opt/geant4/include/Geant4/G4Exception.hh \
- /opt/geant4/include/Geant4/G4ExceptionSeverity.hh \
- /opt/geant4/include/Geant4/G4EnvironmentUtils.hh \
- /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/mutex \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
- /home/tahea/edu/Geant4_proj2/simplegeo/include/RunAction.hh \
- /opt/geant4/include/Geant4/G4UserRunAction.hh \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/SteppingAction.hh \
  /opt/geant4/include/Geant4/G4UserSteppingAction.hh

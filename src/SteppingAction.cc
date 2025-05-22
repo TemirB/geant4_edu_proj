@@ -1,22 +1,15 @@
 #include "SteppingAction.hh"
-#include <G4Step.hh>
-#include <G4VPhysicalVolume.hh>
-#include <G4TouchableHistory.hh>
-#include <G4LogicalVolume.hh>
-#include <G4SystemOfUnits.hh>
+#include "RunAction.hh"
+#include "G4Step.hh"
+#include "G4SystemOfUnits.hh"
 
-SteppingAction::SteppingAction(EventAction* evt, int nLayers, double layerXY)
-    : fEventAction(evt), fNLayers(nLayers), fLayerXY(layerXY) {}
+SteppingAction::SteppingAction(RunAction* runAction) : fRunAction(runAction) {}
+SteppingAction::~SteppingAction() {}
 
 void SteppingAction::UserSteppingAction(const G4Step* step) {
-    auto edep = step->GetTotalEnergyDeposit();
-    if (edep <= 0) return;
-
-    auto touch = step->GetPreStepPoint()->GetTouchable();
-    auto volName = touch->GetVolume()->GetName();
-    if (volName == "SCLV") {
-        int layer = touch->GetCopyNumber();
-        auto pos = step->GetPreStepPoint()->GetPosition();
-        fEventAction->AddEdep(layer, pos.x()/mm, pos.y()/mm, edep);
-    }
+    double edep = step->GetTotalEnergyDeposit();
+    if(edep==0.) return;
+    auto pos = step->GetPreStepPoint()->GetPosition();
+    double r = std::sqrt(pos.x()*pos.x() + pos.y()*pos.y());
+    fRunAction->FillRadial(r, edep);
 }

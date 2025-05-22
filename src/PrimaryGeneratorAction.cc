@@ -1,23 +1,17 @@
 #include "PrimaryGeneratorAction.hh"
-#include <G4ParticleTable.hh>
-#include <G4ParticleDefinition.hh>
-#include <G4SystemOfUnits.hh>
-#include <G4ThreeVector.hh>
-#include <G4Event.hh>
+#include "G4ParticleGun.hh"
+#include "G4ParticleTable.hh"
+#include "G4SystemOfUnits.hh"
 
-PrimaryGeneratorAction::PrimaryGeneratorAction() {
-    int n_particle = 1;
-    fParticleGun = new G4ParticleGun(n_particle);
-
-    G4ParticleDefinition* particle = G4ParticleTable::GetParticleTable()->FindParticle("e-");
+PrimaryGeneratorAction::PrimaryGeneratorAction()
+: G4VUserPrimaryGeneratorAction() {
+    fParticleGun = new G4ParticleGun(1);
+    auto table = G4ParticleTable::GetParticleTable();
+    auto particle = table->FindParticle("e-");
     fParticleGun->SetParticleDefinition(particle);
-    fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
-    fParticleGun->SetParticleEnergy(10.0 * GeV);
-    fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -95.0 * mm));
+    fParticleGun->SetParticleEnergy(10.0*GeV);
+    fParticleGun->SetParticleMomentumDirection({0,0,1});
+    fParticleGun->SetParticlePosition({0,0,-200*mm});
 }
-
 PrimaryGeneratorAction::~PrimaryGeneratorAction() { delete fParticleGun; }
-
-void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
-    fParticleGun->GeneratePrimaryVertex(anEvent);
-}
+void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event) { fParticleGun->GeneratePrimaryVertex(event); }
