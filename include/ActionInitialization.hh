@@ -6,8 +6,11 @@
 class ActionInitialization : public G4VUserActionInitialization {
 public:
     ActionInitialization();
+    ActionInitialization(int);
     virtual ~ActionInitialization();
     virtual void Build() const override;
+private:
+    int fNLayers = 20;
 };
 
 #endif

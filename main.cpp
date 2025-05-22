@@ -17,31 +17,28 @@ int main(int argc, char** argv) {
     }
 
     int nofLayers = 20;
-    G4bool useVisualization = true;
+    G4bool useVisualization = false;
 
-    for (int i = 1; i < argc; ++i) {
-        std::string arg = argv[i];
-        if (arg == "-novis") {
-            useVisualization = false;
-        } else {
-            nofLayers = std::atoi(argv[i]);
-            std::cout << "[INFO] Set nofLayers " << argv[i] << std::endl;
-        }
+    if (argc > 1) {
+        nofLayers = std::stoi(argv[1]);
     }
+    if (argc > 2 && argv[2] == "-vis") {
+        useVisualization = true;
+    } 
 
-    std::cout << "[INFO] Using " << nofLayers << " layers." << std::endl;
+    std::cout << "[INFO] Layers: " << nofLayers << std::endl;
 
     // [2] Создание и иннициализация runManager
     auto* runManager = G4RunManagerFactory::CreateRunManager();
     runManager->SetUserInitialization(new DetectorConstruction(nofLayers));
     runManager->SetUserInitialization(new FTFP_BERT());
-    runManager->SetUserInitialization(new ActionInitialization());
+    runManager->SetUserInitialization(new ActionInitialization(nofLayers));
 
     runManager->Initialize();
 
     // [3] Визуализация
     G4UImanager::GetUIpointer()->ApplyCommand("/tracking/verbose 0");
-
+    
     if (useVisualization) {
         auto visManager = new G4VisExecutive;
         visManager->Initialize();
@@ -53,7 +50,7 @@ int main(int argc, char** argv) {
         delete ui;
         delete visManager;
     } else {
-        runManager->BeamOn(100);
+        runManager->BeamOn(10000);
     }
 
     delete runManager;

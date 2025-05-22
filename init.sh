@@ -1,8 +1,9 @@
 rm -rf build
 mkdir build
 cd build
+mkdir results
 cmake ..
 make
-cp ../init_vis.mac .
-cp ../vis.mac .
-./main.exe
+cp ../res/init_vis.mac .
+cp ../res/vis.mac .
+make ../res

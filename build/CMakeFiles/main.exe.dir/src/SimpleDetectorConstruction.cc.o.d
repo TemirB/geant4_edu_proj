@@ -2,11 +2,12 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /home/tahea/edu/Geant4_proj2/simplegeo/src/SimpleDetectorConstruction.cc \
  /usr/include/stdc-predef.h \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/SimpleDetectorConstruction.hh \
- /opt/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
- /opt/geant4/include/Geant4/globals.hh \
- /opt/geant4/include/Geant4/G4ios.hh \
- /opt/geant4/include/Geant4/G4Types.hh \
- /opt/geant4/include/Geant4/G4GlobalConfig.hh /usr/include/c++/11/complex \
+ /home/tahea/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/tahea/geant4-install/include/Geant4/globals.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ios.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Types.hh \
+ /home/tahea/geant4-install/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -176,7 +177,8 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc /opt/geant4/include/Geant4/tls.hh \
+ /usr/include/c++/11/bits/sstream.tcc \
+ /home/tahea/geant4-install/include/Geant4/tls.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -202,10 +204,11 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /opt/geant4/include/Geant4/G4String.hh /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /opt/geant4/include/Geant4/G4String.icc \
- /opt/geant4/include/Geant4/templates.hh /usr/include/c++/11/climits \
+ /home/tahea/geant4-install/include/Geant4/G4String.hh \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /home/tahea/geant4-install/include/Geant4/G4String.icc \
+ /home/tahea/geant4-install/include/Geant4/templates.hh \
+ /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -214,9 +217,9 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /opt/geant4/include/Geant4/G4Exception.hh \
- /opt/geant4/include/Geant4/G4ExceptionSeverity.hh \
- /opt/geant4/include/Geant4/G4EnvironmentUtils.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Exception.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+ /home/tahea/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -232,82 +235,86 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /opt/geant4/include/Geant4/G4Material.hh \
- /opt/geant4/include/Geant4/G4Element.hh \
- /opt/geant4/include/Geant4/G4ElementTable.hh \
- /opt/geant4/include/Geant4/G4ElementVector.hh \
- /opt/geant4/include/Geant4/G4IonisParamElm.hh \
- /opt/geant4/include/Geant4/G4Isotope.hh \
- /opt/geant4/include/Geant4/G4IsotopeVector.hh \
- /opt/geant4/include/Geant4/G4IonisParamMat.hh \
- /opt/geant4/include/Geant4/G4DensityEffectCalculator.hh \
- /opt/geant4/include/Geant4/G4MaterialPropertiesTable.hh \
- /opt/geant4/include/Geant4/G4MaterialPropertiesIndex.hh \
- /opt/geant4/include/Geant4/G4MaterialPropertyVector.hh \
- /opt/geant4/include/Geant4/G4PhysicsFreeVector.hh \
- /opt/geant4/include/Geant4/G4PhysicsVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Material.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Element.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ElementTable.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ElementVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4IonisParamElm.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Isotope.hh \
+ /home/tahea/geant4-install/include/Geant4/G4IsotopeVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4IonisParamMat.hh \
+ /home/tahea/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+ /home/tahea/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/tahea/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /home/tahea/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4PhysicsVector.hh \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc /opt/geant4/include/Geant4/G4Log.hh \
- /opt/geant4/include/Geant4/G4PhysicsVectorType.hh \
- /opt/geant4/include/Geant4/G4PhysicsVector.icc \
- /opt/geant4/include/Geant4/G4MaterialTable.hh \
- /opt/geant4/include/Geant4/G4SandiaTable.hh \
- /opt/geant4/include/Geant4/G4OrderedTable.hh \
- /opt/geant4/include/Geant4/G4DataVector.hh \
- /opt/geant4/include/Geant4/G4DataVector.icc \
- /opt/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /opt/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /usr/include/assert.h /opt/geant4/include/Geant4/G4NistManager.hh \
- /opt/geant4/include/Geant4/G4ICRU90StoppingData.hh \
- /opt/geant4/include/Geant4/G4Material.hh \
- /opt/geant4/include/Geant4/G4NistElementBuilder.hh \
- /opt/geant4/include/Geant4/G4NistMaterialBuilder.hh \
- /opt/geant4/include/Geant4/G4Pow.hh /opt/geant4/include/Geant4/G4Exp.hh \
- /opt/geant4/include/Geant4/G4Box.hh \
- /opt/geant4/include/Geant4/G4GeomTypes.hh \
- /opt/geant4/include/Geant4/G4GeomConfig.hh \
- /opt/geant4/include/Geant4/G4CSGSolid.hh \
- /opt/geant4/include/Geant4/G4VSolid.hh \
- /opt/geant4/include/Geant4/geomdefs.hh \
- /opt/geant4/include/Geant4/G4ThreeVector.hh \
- /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /opt/geant4/include/Geant4/CLHEP/Utility/defs.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /opt/geant4/include/Geant4/G4VSolid.icc \
- /opt/geant4/include/Geant4/G4Polyhedron.hh \
- /opt/geant4/include/Geant4/HepPolyhedron.h \
- /opt/geant4/include/Geant4/G4TwoVector.hh \
- /opt/geant4/include/Geant4/CLHEP/Vector/TwoVector.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /opt/geant4/include/Geant4/G4Point3D.hh \
- /opt/geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
- /opt/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /opt/geant4/include/Geant4/G4Normal3D.hh \
- /opt/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /opt/geant4/include/Geant4/G4Transform3D.hh \
- /opt/geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /opt/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/Rotation.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationX.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationX.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationY.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationY.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationZ.h \
- /opt/geant4/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /opt/geant4/include/Geant4/CLHEP/Vector/Rotation.icc \
- /opt/geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /opt/geant4/include/Geant4/G4Visible.hh \
- /opt/geant4/include/Geant4/G4Visible.icc \
- /opt/geant4/include/Geant4/G4Box.icc \
- /opt/geant4/include/Geant4/G4LogicalVolume.hh /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/tahea/geant4-install/include/Geant4/G4Log.hh \
+ /home/tahea/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+ /home/tahea/geant4-install/include/Geant4/G4PhysicsVector.icc \
+ /home/tahea/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/tahea/geant4-install/include/Geant4/G4SandiaTable.hh \
+ /home/tahea/geant4-install/include/Geant4/G4OrderedTable.hh \
+ /home/tahea/geant4-install/include/Geant4/G4DataVector.hh \
+ /home/tahea/geant4-install/include/Geant4/G4DataVector.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /usr/include/assert.h \
+ /home/tahea/geant4-install/include/Geant4/G4NistManager.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Material.hh \
+ /home/tahea/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/tahea/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Pow.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Exp.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Box.hh \
+ /home/tahea/geant4-install/include/Geant4/G4GeomTypes.hh \
+ /home/tahea/geant4-install/include/Geant4/G4GeomConfig.hh \
+ /home/tahea/geant4-install/include/Geant4/G4CSGSolid.hh \
+ /home/tahea/geant4-install/include/Geant4/G4VSolid.hh \
+ /home/tahea/geant4-install/include/Geant4/geomdefs.hh \
+ /home/tahea/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/tahea/geant4-install/include/Geant4/G4VSolid.icc \
+ /home/tahea/geant4-install/include/Geant4/G4Polyhedron.hh \
+ /home/tahea/geant4-install/include/Geant4/HepPolyhedron.h \
+ /home/tahea/geant4-install/include/Geant4/G4TwoVector.hh \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+ /home/tahea/geant4-install/include/Geant4/G4Point3D.hh \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/tahea/geant4-install/include/Geant4/G4Normal3D.hh \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/tahea/geant4-install/include/Geant4/G4Transform3D.hh \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/tahea/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/tahea/geant4-install/include/Geant4/G4Visible.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Visible.icc \
+ /home/tahea/geant4-install/include/Geant4/G4Box.icc \
+ /home/tahea/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -319,19 +326,19 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /opt/geant4/include/Geant4/G4Region.hh \
- /opt/geant4/include/Geant4/G4GeomSplitter.hh \
- /opt/geant4/include/Geant4/geomwdefs.hh \
- /opt/geant4/include/Geant4/G4AutoLock.hh \
- /opt/geant4/include/Geant4/G4Threading.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Region.hh \
+ /home/tahea/geant4-install/include/Geant4/G4GeomSplitter.hh \
+ /home/tahea/geant4-install/include/Geant4/geomwdefs.hh \
+ /home/tahea/geant4-install/include/Geant4/G4AutoLock.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/future \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /opt/geant4/include/Geant4/G4Region.icc \
- /opt/geant4/include/Geant4/G4VPhysicalVolume.hh \
- /opt/geant4/include/Geant4/G4RotationMatrix.hh \
- /opt/geant4/include/Geant4/G4VPhysicalVolume.icc \
- /opt/geant4/include/Geant4/G4LogicalVolume.icc \
- /opt/geant4/include/Geant4/G4PVPlacement.hh \
- /opt/geant4/include/Geant4/G4SystemOfUnits.hh
+ /home/tahea/geant4-install/include/Geant4/G4Region.icc \
+ /home/tahea/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/tahea/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /home/tahea/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/tahea/geant4-install/include/Geant4/G4LogicalVolume.icc \
+ /home/tahea/geant4-install/include/Geant4/G4PVPlacement.hh \
+ /home/tahea/geant4-install/include/Geant4/G4SystemOfUnits.hh

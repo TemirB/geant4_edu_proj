@@ -69,6 +69,8 @@
         "semaphore": "cpp",
         "span": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
-    }
+        "thread": "cpp",
+        "rootScript_1d.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

@@ -2,13 +2,14 @@ CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o: \
  /home/tahea/edu/Geant4_proj2/simplegeo/src/ActionInitialization.cc \
  /usr/include/stdc-predef.h \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/ActionInitialization.hh \
- /opt/geant4/include/Geant4/G4VUserActionInitialization.hh \
+ /home/tahea/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/PrimaryGeneratorAction.hh \
- /opt/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/tahea/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/RunAction.hh \
- /opt/geant4/include/Geant4/G4UserRunAction.hh \
- /opt/geant4/include/Geant4/G4Types.hh \
- /opt/geant4/include/Geant4/G4GlobalConfig.hh /usr/include/c++/11/complex \
+ /home/tahea/geant4-install/include/Geant4/G4UserRunAction.hh \
+ /home/tahea/geant4-install/include/Geant4/G4Types.hh \
+ /home/tahea/geant4-install/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -178,10 +179,11 @@ CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc /opt/geant4/include/Geant4/tls.hh \
+ /usr/include/c++/11/bits/sstream.tcc \
+ /home/tahea/geant4-install/include/Geant4/tls.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /home/tahea/edu/Geant4_proj2/simplegeo/include/SteppingAction.hh \
- /opt/geant4/include/Geant4/G4UserSteppingAction.hh
+ /home/tahea/geant4-install/include/Geant4/G4UserSteppingAction.hh

@@ -6,7 +6,11 @@
 #include "G4UnitsTable.hh"
 
 RunAction::RunAction()
-: G4UserRunAction(), fNBins(1000), fBinWidth(0.2*mm)
+: G4UserRunAction(), fNBins(1000), fBinWidth(0.2*mm), fNLayers(20)
+{ fRadialE.assign(fNBins, 0.0); }
+
+RunAction::RunAction(int nLayers)
+: G4UserRunAction(), fNBins(1000), fBinWidth(0.2*mm), fNLayers(nLayers)
 { fRadialE.assign(fNBins, 0.0); }
 
 RunAction::~RunAction() {}
@@ -22,16 +26,17 @@ void RunAction::EndOfRunAction(const G4Run*) {
     double totalE = 0;
     for (auto e : fRadialE) totalE += e;
     if (totalE <= 0) return;
-    double thr = 0.9*totalE;
-    double cum = 0, r90 = 0;
+    double thr = 0.9*totalE; // порог
+    double currentE = 0, r90 = 0; // currentE, r90 - текущая энергия и итоговый радиус
     for(size_t i=0; i<fRadialE.size(); ++i) {
-        cum += fRadialE[i];
-        if(cum >= thr) {
+        currentE += fRadialE[i];
+        if(currentE >= thr) {
             r90 = (i+0.5)*fBinWidth;
             break;
         }
     }
-    std::ofstream out("results.txt", std::ios::app);
+    std::string name = "results/rm_vs_layers_" + std::to_string(fNLayers) + ".txt";
+    std::ofstream out(name, std::ios::app);
     out << r90/mm << std::endl;
     out.close();
     G4cout << "Moliere radius (90% E): " << G4BestUnit(r90,"Length") << G4endl;
