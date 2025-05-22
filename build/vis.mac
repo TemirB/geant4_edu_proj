@@ -1,0 +1,10 @@
+/run/initialize
+/vis/open RayTracer
+/vis/viewer/set/autoRefresh true
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/axes 0 0 0 100 mm
+/tracking/storeTrajectory 1
+/run/beamOn 10

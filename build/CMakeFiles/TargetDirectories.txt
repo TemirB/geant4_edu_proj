@@ -1,0 +1,7 @@
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/main.exe.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/edit_cache.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/rebuild_cache.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/list_install_components.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/install.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/install/local.dir
+/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles/install/strip.dir
