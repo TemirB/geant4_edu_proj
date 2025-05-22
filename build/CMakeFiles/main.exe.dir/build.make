@@ -97,10 +97,24 @@ CMakeFiles/main.exe.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/src/ActionInitialization.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahea/edu/Geant4_proj2/simplegeo/src/ActionInitialization.cc -o CMakeFiles/main.exe.dir/src/ActionInitialization.cc.s
 
+CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
+CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/DetectorConstruction.cc
+
+CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahea/edu/Geant4_proj2/simplegeo/src/DetectorConstruction.cc > CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.i
+
+CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahea/edu/Geant4_proj2/simplegeo/src/DetectorConstruction.cc -o CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.s
+
 CMakeFiles/main.exe.dir/src/EventAction.cc.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/src/EventAction.cc.o: ../src/EventAction.cc
 CMakeFiles/main.exe.dir/src/EventAction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.exe.dir/src/EventAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.exe.dir/src/EventAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/EventAction.cc.o -MF CMakeFiles/main.exe.dir/src/EventAction.cc.o.d -o CMakeFiles/main.exe.dir/src/EventAction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/EventAction.cc
 
 CMakeFiles/main.exe.dir/src/EventAction.cc.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/main.exe.dir/src/EventAction.cc.s: cmake_force
 CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
 CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -125,10 +139,24 @@ CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahea/edu/Geant4_proj2/simplegeo/src/PrimaryGeneratorAction.cc -o CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.s
 
+CMakeFiles/main.exe.dir/src/RunAction.cc.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/src/RunAction.cc.o: ../src/RunAction.cc
+CMakeFiles/main.exe.dir/src/RunAction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.exe.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/RunAction.cc.o -MF CMakeFiles/main.exe.dir/src/RunAction.cc.o.d -o CMakeFiles/main.exe.dir/src/RunAction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/RunAction.cc
+
+CMakeFiles/main.exe.dir/src/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/src/RunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahea/edu/Geant4_proj2/simplegeo/src/RunAction.cc > CMakeFiles/main.exe.dir/src/RunAction.cc.i
+
+CMakeFiles/main.exe.dir/src/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/src/RunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahea/edu/Geant4_proj2/simplegeo/src/RunAction.cc -o CMakeFiles/main.exe.dir/src/RunAction.cc.s
+
 CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: ../src/SimpleDetectorConstruction.cc
 CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o -MF CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o.d -o CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/SimpleDetectorConstruction.cc
 
 CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.s: cmake_force
 CMakeFiles/main.exe.dir/src/SteppingAction.cc.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
 CMakeFiles/main.exe.dir/src/SteppingAction.cc.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.exe.dir/src/SteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.exe.dir/src/SteppingAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/src/SteppingAction.cc.o -MF CMakeFiles/main.exe.dir/src/SteppingAction.cc.o.d -o CMakeFiles/main.exe.dir/src/SteppingAction.cc.o -c /home/tahea/edu/Geant4_proj2/simplegeo/src/SteppingAction.cc
 
 CMakeFiles/main.exe.dir/src/SteppingAction.cc.i: cmake_force
@@ -157,8 +185,10 @@ CMakeFiles/main.exe.dir/src/SteppingAction.cc.s: cmake_force
 main_exe_OBJECTS = \
 "CMakeFiles/main.exe.dir/main.cpp.o" \
 "CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o" \
+"CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o" \
 "CMakeFiles/main.exe.dir/src/EventAction.cc.o" \
 "CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o" \
+"CMakeFiles/main.exe.dir/src/RunAction.cc.o" \
 "CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o" \
 "CMakeFiles/main.exe.dir/src/SteppingAction.cc.o"
 
@@ -167,8 +197,10 @@ main_exe_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.exe.dir/main.cpp.o
 main.exe: CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o
+main.exe: CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o
 main.exe: CMakeFiles/main.exe.dir/src/EventAction.cc.o
 main.exe: CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o
+main.exe: CMakeFiles/main.exe.dir/src/RunAction.cc.o
 main.exe: CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o
 main.exe: CMakeFiles/main.exe.dir/src/SteppingAction.cc.o
 main.exe: CMakeFiles/main.exe.dir/build.make
@@ -206,7 +238,7 @@ main.exe: /opt/geant4/lib/libG4global.so
 main.exe: /opt/geant4/lib/libG4clhep.so
 main.exe: /opt/geant4/lib/libG4ptl.so.3.0.0
 main.exe: CMakeFiles/main.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tahea/edu/Geant4_proj2/simplegeo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

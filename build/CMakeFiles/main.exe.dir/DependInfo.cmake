@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tahea/edu/Geant4_proj2/simplegeo/main.cpp" "CMakeFiles/main.exe.dir/main.cpp.o" "gcc" "CMakeFiles/main.exe.dir/main.cpp.o.d"
   "/home/tahea/edu/Geant4_proj2/simplegeo/src/ActionInitialization.cc" "CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/ActionInitialization.cc.o.d"
+  "/home/tahea/edu/Geant4_proj2/simplegeo/src/DetectorConstruction.cc" "CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/DetectorConstruction.cc.o.d"
   "/home/tahea/edu/Geant4_proj2/simplegeo/src/EventAction.cc" "CMakeFiles/main.exe.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/EventAction.cc.o.d"
   "/home/tahea/edu/Geant4_proj2/simplegeo/src/PrimaryGeneratorAction.cc" "CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/tahea/edu/Geant4_proj2/simplegeo/src/RunAction.cc" "CMakeFiles/main.exe.dir/src/RunAction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/RunAction.cc.o.d"
   "/home/tahea/edu/Geant4_proj2/simplegeo/src/SimpleDetectorConstruction.cc" "CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/SimpleDetectorConstruction.cc.o.d"
   "/home/tahea/edu/Geant4_proj2/simplegeo/src/SteppingAction.cc" "CMakeFiles/main.exe.dir/src/SteppingAction.cc.o" "gcc" "CMakeFiles/main.exe.dir/src/SteppingAction.cc.o.d"
   )
